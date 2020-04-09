@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Latihan Javascript</title>
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="dropdown mb-3">
+            <label for="nim">Nim:</label>
+            <label>:</label>
+            <select id="nim_mhs">
+                <option value="">Pilih Nim</option>
+                <option value="Muh Amin">A11.2015.12345</option>
+                <option value="Santoso">A11.2015.12346</option>
+                <option value="Sutrisno">A11.2015.12347</option>
+            </select>
+        </div>
+        <form>
+            <div class="form-group" action="/action_page.php">
+                <label>Nama (otomatis)</label>
+                <label>:</label>
+                <input type="text" disabled class="form-control" id="nama_mhs" placeholder="Nama">
+
+            </div>
+            <div class="form-group">
+                <label>Nilai Tugas : </label>
+                <input type="number" class="form-control" min="1" max="100" id="nilai_tugas" placeholder="1-100">
+            </div>
+            <div class="form-group">
+                <label>Nilai UTS : </label>
+                <input type="number" class="form-control" min="1" max="100" id="nilai_uts" placeholder="1-100">
+            </div>
+            <div class="form-group">
+                <label>Nilai UAS : </label>
+                <input type="number" class="form-control" min="1" max="100" id="nilai_uas" placeholder="1-100">
+            </div>
+            <div class="form-group">
+                <label>Nilai Akhir (otomatis) : </label>
+                <input type="text" disabled class="form-control" id="nilai_akhir" placeholder="Nilai Akhir">
+            </div>
+            <button type="submit" class="btn btn-primary" id="btn-submit">Submit</button>
+        </form>
+
+        <h4 class="mt-3" id="alert"></h4>
+
+        <p class="mt-4" id="table"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+*{  
+    outline: none; 
+} 
+
+body{  
+    margin: 0;  font-family: Candara; 
+} 
+
+a{  
+    text-decoration: none; 
+} 
+
+h2{  
+    font-size: 20pt; 
+} 
+
+.top-gray{  
+    width:100%;  height: 12px;  background:#333; 
+} 
+
+.header{  
+    width:1000px;  margin: 0 auto; 
+} 
+
+.menu{  
+    background: #dd4814;  border:1px solid #bf3e11;  border-radius: 5px; 
+} 
+
+.menu ul{  
+    margin: 0 15px;  padding: 0; 
+} 
+
+.menu ul li{  
+    list-style: none;  display: inline-block;  padding: 15px 25px; 
+} 
+
+.menu ul li:hover{  
+    background: #bf3e11; 
+} 
+
+.menu ul li a{  
+    color: #fff; 
+} 
+
+.big-logo{  
+    font-size: 30pt;  color:#333;  padding: 20px 0;  font-weight: bold; 
+} 
+
+.content{  
+    width:1000px;  margin: 0 auto; 
+} 
+
+button,.btn{ 
+    background: #dd4814;  border:1px solid #bf3e11;  border-radius: 5px;  padding: 10px 15px;  color:white;  display: inline-block;  margin: 10px 0;  font-family: Candara;  font-size: 12pt; 
+} 
+
+.btn:hover{  
+    background: #bf3e11; 
+} 
+
+.pull-right{  
+    float: right; 
+} 
+
+.img-small{  
+    max-width: 100px;  max-height: 100px; 
+} 
+
+.img-mini{  
+    max-width: 20px;  max-height: 20px; 
+} 
+
+table{  
+    width: 100%; 
+} 
+
+table.data,table.data tr th,table.data tr td{  
+    border-collapse: collapse;  border: 1px solid #bf3e11; 
+} 
+
+table.data tr td{  
+    text-align: center; 
+} 
+
+input{  
+    font-size: 12pt;  font-family: Candara;  padding: 5px;  width: 100%;  border:1px solid #999; 
+} 
+
+input:hover{  
+    border:1px solid #bf3e11; 
+} 
